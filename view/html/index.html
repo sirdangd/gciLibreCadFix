@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>LibreCAD</title>
+
+         <!-- Bootstrap CSS CDN -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <!-- Our Custom CSS -->
+        <link rel="stylesheet" href="../css/main.css">
+    </head>
+    <body>
+
+
+
+        <div class="wrapper">
+            <!-- Sidebar Holder -->
+            <nav id="sidebar">
+                <div class="sidebar-header">
+                    <img src="../images/libreCadLogo.png" width="200px" />
+                </div>
+
+                <ul class="list-unstyled components">
+                    <li>
+                        <a href="#whatIsLibreCAD">What is LibreCAD</a>
+                    </li>
+                    <li>
+                        <a href="#features">Features</a>
+                    </li>
+                    <li>
+                        <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">Get Help</a>
+                        <ul class="collapse list-unstyled" id="pageSubmenu">
+                            <li><a href="#">Forums</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="http://librecad.org/cms/home/get-help/forum.html">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#">Get Involved</a>
+                    </li>
+                    <li>
+                        <a href="http://blog.librecad.org/">News</a>
+                    </li>
+                    <li>
+                        <a href="http://wiki.librecad.org/index.php/Main_Page">Wiki</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">Installation</a>
+                        <ul class="collapse list-unstyled" id="pageSubmenu">
+                            <li><a href="http://librecad.org/cms/home/installation/osx.html">OSX</a></li>
+                            <li><a href="http://librecad.org/cms/home/installation/windows.html">Windows</a></li>
+                            <li><a href="http://librecad.org/cms/home/installation/linux.html">Debian/Ubuntu</a></li>
+                            <li><a href="http://librecad.org/cms/home/installation/rpm-packages.html">RPM Packages</a></li>
+                            <li><a href="http://librecad.org/cms/home/installation/freebsd.html">FreeBSD</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">From The Source</a>
+                        <ul class="collapse list-unstyled" id="pageSubmenu">
+                            <li><a href="http://librecad.org/cms/home/from-source/windows.html">Windows</a></li>
+                            <li><a href="http://librecad.org/cms/home/from-source/linux.html">Linux</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="list-unstyled CTAs">
+                    <li><a href="https://github.com/LibreCAD/LibreCAD" class="gitHub">Code Repo</a></li>
+                    <li><a href="http://blog.librecad.org/" class="blog">Blog</a></li>
+                </ul>
+            </nav>
+
+            <!-- Page Content Holder -->
+            <div id="content">
+
+                <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+
+                        <div class="navbar-header">
+                            <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn">
+                                <i class="glyphicon glyphicon-align-left"></i>
+                                <span>Toggle Sidebar</span>
+                            </button>
+                        </div>
+
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav navbar-right">
+                                <p>LibreCAD, Open source 2D-CAD</p>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                
+                    <section>
+                        <a name="whatIsLibreCAD"></a>
+                        <h2>What is LibreCAD</h2>
+                        <div class="sectable">
+                            <p>LibreCAD is a free Open Source CAD application for Windows, Apple and Linux. Support and documentation is free from our large, dedicated community of users, contributors and developers. You, too, can also get involved!</p>
+                            <img src="../images/whatIsLibreCAD.png" />                        
+                        </div>
+                    </section>
+                    <div class="line"></div>
+                    <section>
+                        <a name="features"></a>
+                        <h2>Features</h2>
+                        <div class="sectable">
+                            <p>LibreCAD is a fully comprehensive 2D CAD application that you can download and install for free. There is a large base of satisfied LibreCAD users worldwide, and it is available in more than 20 languages and for all major operating systems, including Microsoft Windows, Mac OS X and Linux (Debian, Ubuntu, Fedora, Mandriva, Suse ...).
+                                    
+                                   You can download, install and distribute LibreCAD freely, with no fear of copyright infringement.</p>
+                            <img src="../images/features.png" />        
+                        </div>
+                    </section>
+                    <h3>LibreCAD's Features</h3>
+                        <p>LibreCAD is a feature-packed and mature 2D-CAD application with some really great advantages:</p>
+                        <li>It's free – no worry about license costs or annual fees.</li>
+                        <li>No language barriers – it's available in a large number of languages, with more being added continually.</li>
+                        <li>GPLv2 public license – you can use it, customize it, hack it and copy it with free user support and developer support from our active worldwide community and our experienced developer team.</li>
+                        <li>LibreCAD is an Open Source community-driven project: development is open to new talent and new ideas, and our software is tested and used daily by a large and devoted user community; you, too, can get involved and influence its future development.</li>
+                    <div class="line"></div>
+            </div>
+        </div>
+
+
+
+
+
+        <!-- jQuery CDN -->
+         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+         <!-- Bootstrap Js CDN -->
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+         <script type="text/javascript">
+             $(document).ready(function () {
+                 $('#sidebarCollapse').on('click', function () {
+                     $('#sidebar').toggleClass('active');
+                 });
+             });
+         </script>
+    </body>
+</html>

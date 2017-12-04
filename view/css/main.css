@@ -163,21 +163,3 @@ a.blog, a.blog:hover {
         display: none;
     }
 }
-
-.sectable {
-    display: table;
-    width: 100%;
-}
-.sectable section {
-    display: table-row;
-    width: 100%;
-    
-}
-.sectable section p {
-    display: table-cell;
-    width: 50%;
-}
-.sectable section img {
-    display: table-cell;
-    width: 50%;
-}
